@@ -1,0 +1,198 @@
+[
+  {
+    "question": "What is JSX?",
+    "answer": "JSX is a syntax extension for JavaScript used with React to describe UI structure."
+  },
+  {
+    "question": "What are hooks in React?",
+    "answer": "Hooks are functions that let you use state and lifecycle methods in functional components."
+  },
+  {
+    "question": "What is the use of useState hook?",
+    "answer": "useState allows you to add state to functional components."
+  },
+  {
+    "question": "What is the useEffect hook?",
+    "answer": "useEffect lets you perform side effects in function components."
+  },
+  {
+    "question": "What are props in React?",
+    "answer": "Props are inputs to components that allow data to be passed from parent to child."
+  },
+  {
+    "question": "What is state in React?",
+    "answer": "State is a built-in object used to contain data or information about the component."
+  },
+  {
+    "question": "What is the Virtual DOM?",
+    "answer": "The Virtual DOM is a lightweight JavaScript representation of the real DOM."
+  },
+  {
+    "question": "What is the purpose of keys in React lists?",
+    "answer": "Keys help React identify which items have changed, are added, or are removed."
+  },
+  {
+    "question": "What is the difference between state and props?",
+    "answer": "State is managed within the component, props are passed to it."
+  },
+  {
+    "question": "What is a functional component?",
+    "answer": "A functional component is a plain JavaScript function that returns JSX."
+  },
+  {
+    "question": "What is a class component?",
+    "answer": "A class component is a React component defined using a JavaScript class."
+  },
+  {
+    "question": "How do you handle forms in React?",
+    "answer": "Using controlled components where form data is handled by the React component state."
+  },
+  {
+    "question": "What is lifting state up in React?",
+    "answer": "Lifting state up means moving state to a common ancestor of components that need it."
+  },
+  {
+    "question": "What is React Router?",
+    "answer": "React Router is a library for routing in React applications."
+  },
+  {
+    "question": "What is context in React?",
+    "answer": "Context provides a way to pass data through the component tree without passing props."
+  },
+  {
+    "question": "How do you optimize performance in a React app?",
+    "answer": "Using techniques like memoization, lazy loading, and avoiding unnecessary re-renders."
+  },
+  {
+    "question": "What is React.memo?",
+    "answer": "React.memo is a HOC that prevents functional components from re-rendering if props don't change."
+  },
+  {
+    "question": "What is useCallback hook?",
+    "answer": "useCallback returns a memoized version of a callback function."
+  },
+  {
+    "question": "What is useMemo hook?",
+    "answer": "useMemo returns a memoized value and recomputes it only when dependencies change."
+  },
+  {
+    "question": "What is the difference between useEffect and useLayoutEffect?",
+    "answer": "useLayoutEffect fires synchronously after all DOM mutations, while useEffect is async."
+  },
+  {
+    "question": "What is a Higher Order Component?",
+    "answer": "A function that takes a component and returns a new component."
+  },
+  {
+    "question": "What is prop drilling?",
+    "answer": "Prop drilling is passing props through many components to reach a deeply nested component."
+  },
+  {
+    "question": "What is Redux?",
+    "answer": "Redux is a predictable state container for JavaScript apps."
+  },
+  {
+    "question": "What are actions in Redux?",
+    "answer": "Actions are plain JavaScript objects that describe changes to the state."
+  },
+  {
+    "question": "What is a reducer in Redux?",
+    "answer": "A reducer is a pure function that takes the previous state and an action, and returns the next state."
+  },
+  {
+    "question": "What is the Redux store?",
+    "answer": "The store holds the application state in one place."
+  },
+  {
+    "question": "How do you connect Redux with React?",
+    "answer": "Using the react-redux library and the connect function or useSelector/useDispatch hooks."
+  },
+  {
+    "question": "What is the difference between React and React Native?",
+    "answer": "React is for building web apps; React Native is for mobile apps."
+  },
+  {
+    "question": "What are fragments in React?",
+    "answer": "Fragments let you group multiple elements without adding extra nodes to the DOM."
+  },
+  {
+    "question": "What is error boundary?",
+    "answer": "Error boundaries are React components that catch JavaScript errors in their child component tree."
+  },
+  {
+    "question": "What is reconciliation in React?",
+    "answer": "Reconciliation is the process through which React updates the DOM."
+  },
+  {
+    "question": "What is a ref in React?",
+    "answer": "Refs are used to access DOM nodes or React elements directly."
+  },
+  {
+    "question": "What is controlled vs uncontrolled components?",
+    "answer": "Controlled components have form data handled by state, uncontrolled use refs."
+  },
+  {
+    "question": "What is the difference between local state and global state?",
+    "answer": "Local state is within one component, global is shared across components."
+  },
+  {
+    "question": "What is React.StrictMode?",
+    "answer": "A tool for highlighting potential problems in an application."
+  },
+  {
+    "question": "What is the purpose of defaultProps?",
+    "answer": "To provide default values for props when none are specified."
+  },
+  {
+    "question": "What is ReactDOM?",
+    "answer": "ReactDOM provides DOM-specific methods for React."
+  },
+  {
+    "question": "What are portals in React?",
+    "answer": "Portals allow rendering children into a DOM node outside the parent hierarchy."
+  },
+  {
+    "question": "What is the useImperativeHandle hook?",
+    "answer": "It customizes the instance value exposed when using React.forwardRef."
+  },
+  {
+    "question": "What is server-side rendering in React?",
+    "answer": "Rendering a React component on the server and sending HTML to the client."
+  },
+  {
+    "question": "What is hydration in React?",
+    "answer": "Hydration attaches event listeners to existing HTML from server-side rendering."
+  },
+  {
+    "question": "What is the difference between render and return in React?",
+    "answer": "render is a lifecycle method in class components, return is used in functional components."
+  },
+  {
+    "question": "What is React.lazy?",
+    "answer": "React.lazy allows loading components lazily using dynamic imports."
+  },
+  {
+    "question": "What is Suspense in React?",
+    "answer": "Suspense lets you wait for some code to load and declaratively show a fallback."
+  },
+  {
+    "question": "What are controlled inputs?",
+    "answer": "Inputs whose value is controlled by React state."
+  },
+  {
+    "question": "What is the significance of keys in mapping components?",
+    "answer": "They help React identify which items have changed."
+  },
+  {
+    "question": "What is batching in React?",
+    "answer": "React groups multiple state updates into a single render for performance."
+  },
+  {
+    "question": "What is concurrent mode in React?",
+    "answer": "A set of features to make React apps more responsive by rendering interruptible work."
+  },
+  {
+    "question": "How does React handle events?",
+    "answer": "React wraps events in SyntheticEvent for cross-browser compatibility."
+  }
+]

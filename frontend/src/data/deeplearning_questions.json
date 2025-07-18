@@ -1,0 +1,202 @@
+[
+  {
+    "question": "What is Deep Learning?",
+    "answer": "Deep Learning is a subset of machine learning that uses artificial neural networks with multiple layers to learn from large amounts of data."
+  },
+  {
+    "question": "What is a neural network?",
+    "answer": "A neural network is a computing system made up of interconnected nodes (neurons) that process data by responding to inputs and transmitting outputs."
+  },
+  {
+    "question": "What is the difference between Deep Learning and Machine Learning?",
+    "answer": "Machine Learning uses algorithms to parse data and learn patterns, while Deep Learning uses multi-layered neural networks to model complex patterns in high-dimensional data."
+  },
+  {
+    "question": "What are activation functions?",
+    "answer": "Activation functions are used in neural networks to introduce non-linearity into the model, allowing it to learn complex relationships."
+  },
+  {
+    "question": "Name some commonly used activation functions.",
+    "answer": "ReLU, Sigmoid, Tanh, Leaky ReLU, and Softmax."
+  },
+  {
+    "question": "What is a loss function?",
+    "answer": "A loss function quantifies how far the predicted output is from the actual target output."
+  },
+  {
+    "question": "What is backpropagation?",
+    "answer": "Backpropagation is an algorithm used for training neural networks by adjusting weights using the gradient of the loss function."
+  },
+  {
+    "question": "What is the vanishing gradient problem?",
+    "answer": "It's a problem where gradients become very small, effectively stopping the network from learning further in deep networks."
+  },
+  {
+    "question": "How does ReLU help with the vanishing gradient problem?",
+    "answer": "ReLU does not saturate in the positive direction, allowing gradients to flow more effectively."
+  },
+  {
+    "question": "What is overfitting in Deep Learning?",
+    "answer": "Overfitting occurs when a model performs well on training data but poorly on unseen data due to memorizing patterns rather than learning general features."
+  },
+  {
+    "question": "What are some ways to prevent overfitting?",
+    "answer": "Dropout, regularization (L1/L2), early stopping, and data augmentation."
+  },
+  {
+    "question": "What is dropout?",
+    "answer": "Dropout is a regularization technique where randomly selected neurons are ignored during training to reduce overfitting."
+  },
+  {
+    "question": "What is a convolutional neural network (CNN)?",
+    "answer": "CNNs are specialized neural networks used for image processing and pattern recognition, consisting of convolutional and pooling layers."
+  },
+  {
+    "question": "What is a pooling layer in CNN?",
+    "answer": "Pooling layers reduce the spatial size of the representation, helping to reduce computation and control overfitting."
+  },
+  {
+    "question": "What are the types of pooling?",
+    "answer": "Max pooling, average pooling, and global pooling."
+  },
+  {
+    "question": "What is a recurrent neural network (RNN)?",
+    "answer": "RNNs are neural networks designed for sequential data, where outputs depend on previous computations."
+  },
+  {
+    "question": "What are LSTM networks?",
+    "answer": "LSTM (Long Short-Term Memory) networks are a type of RNN designed to capture long-term dependencies and avoid vanishing gradients."
+  },
+  {
+    "question": "What is the exploding gradient problem?",
+    "answer": "It's when gradients grow too large during training, causing weights to diverge and making learning unstable."
+  },
+  {
+    "question": "What is a learning rate?",
+    "answer": "The learning rate controls how much the model weights are updated with respect to the gradient."
+  },
+  {
+    "question": "What is batch normalization?",
+    "answer": "It is a technique to normalize the input layer by adjusting and scaling the activations."
+  },
+  {
+    "question": "What is transfer learning?",
+    "answer": "Transfer learning is a technique where a model developed for one task is reused as the starting point for a model on another task."
+  },
+  {
+    "question": "What is fine-tuning in transfer learning?",
+    "answer": "Fine-tuning refers to updating the weights of a pre-trained model on a new dataset for a specific task."
+  },
+  {
+    "question": "What is the difference between batch and epoch?",
+    "answer": "A batch is a subset of training data, while an epoch is one full pass through the entire training dataset."
+  },
+  {
+    "question": "What is an optimizer in Deep Learning?",
+    "answer": "An optimizer is an algorithm that adjusts model parameters to minimize the loss function."
+  },
+  {
+    "question": "Name some common optimizers.",
+    "answer": "SGD, Adam, RMSProp, Adagrad."
+  },
+  {
+    "question": "What is gradient descent?",
+    "answer": "Gradient descent is an optimization algorithm that minimizes the loss function by updating parameters in the direction of the negative gradient."
+  },
+  {
+    "question": "What is the difference between SGD and Adam?",
+    "answer": "SGD updates weights using gradients only, while Adam combines momentum and adaptive learning rates for faster convergence."
+  },
+  {
+    "question": "What is an autoencoder?",
+    "answer": "An autoencoder is a type of neural network used for unsupervised learning, typically for dimensionality reduction or anomaly detection."
+  },
+  {
+    "question": "What are generative adversarial networks (GANs)?",
+    "answer": "GANs consist of a generator and discriminator network competing against each other to generate realistic data."
+  },
+  {
+    "question": "What is the role of the generator in a GAN?",
+    "answer": "The generator creates fake data that tries to mimic real data."
+  },
+  {
+    "question": "What is the role of the discriminator in a GAN?",
+    "answer": "The discriminator distinguishes between real and generated data."
+  },
+  {
+    "question": "What is a fully connected layer?",
+    "answer": "A fully connected layer connects every neuron in one layer to every neuron in the next layer."
+  },
+  {
+    "question": "What is the Softmax function used for?",
+    "answer": "Softmax is used in the output layer of classification networks to convert logits into probabilities."
+  },
+  {
+    "question": "What is one-hot encoding?",
+    "answer": "It is a method to convert categorical data into a binary vector with only one high (1) and the rest low (0)."
+  },
+  {
+    "question": "What is precision in classification?",
+    "answer": "Precision is the ratio of true positives to total predicted positives."
+  },
+  {
+    "question": "What is recall in classification?",
+    "answer": "Recall is the ratio of true positives to total actual positives."
+  },
+  {
+    "question": "What is F1-score?",
+    "answer": "F1-score is the harmonic mean of precision and recall, giving a balance between them."
+  },
+  {
+    "question": "What is the purpose of using padding in CNNs?",
+    "answer": "Padding preserves the spatial dimensions of the input after convolution."
+  },
+  {
+    "question": "What is stride in CNNs?",
+    "answer": "Stride determines the number of pixels the filter moves across the input."
+  },
+  {
+    "question": "What is data augmentation?",
+    "answer": "Data augmentation is a technique to increase dataset size and variability by applying transformations like rotation, flipping, etc."
+  },
+  {
+    "question": "What is a pretrained model?",
+    "answer": "A pretrained model is a model trained on a large dataset and reused for similar tasks."
+  },
+  {
+    "question": "What is Xavier initialization?",
+    "answer": "Xavier initialization is a weight initialization technique that maintains the variance of activations across layers."
+  },
+  {
+    "question": "What is a residual network (ResNet)?",
+    "answer": "ResNet is a deep neural network that uses skip connections to avoid vanishing gradients in very deep architectures."
+  },
+  {
+    "question": "What is a transformer in Deep Learning?",
+    "answer": "A transformer is a model architecture that uses self-attention mechanisms, mainly used in NLP tasks."
+  },
+  {
+    "question": "What is attention mechanism?",
+    "answer": "Attention helps the model focus on important parts of the input when generating outputs."
+  },
+  {
+    "question": "What is self-attention?",
+    "answer": "Self-attention is a mechanism that allows the model to weigh the importance of different words or positions in a sequence."
+  },
+  {
+    "question": "What is model checkpointing?",
+    "answer": "Model checkpointing saves the model’s weights during training to resume training or rollback to a better version."
+  },
+  {
+    "question": "What is early stopping?",
+    "answer": "Early stopping halts training when validation loss stops improving to prevent overfitting."
+  },
+  {
+    "question": "What is a confusion matrix?",
+    "answer": "A confusion matrix is a table used to describe the performance of a classification model with actual and predicted values."
+  },
+  {
+    "question": "What is hyperparameter tuning?",
+    "answer": "It is the process of finding the best combination of model parameters (like learning rate, batch size) to improve performance."
+  }
+]

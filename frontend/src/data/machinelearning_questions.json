@@ -1,0 +1,206 @@
+[
+  {
+    "question": "What is Machine Learning?",
+    "answer": "Machine Learning is a subset of AI that allows systems to learn from data and make predictions or decisions without being explicitly programmed."
+  },
+  {
+    "question": "What are the types of Machine Learning?",
+    "answer": "Supervised Learning, Unsupervised Learning, Semi-supervised Learning, and Reinforcement Learning."
+  },
+  {
+    "question": "What is supervised learning?",
+    "answer": "Supervised learning is where the model is trained on labeled data (input-output pairs)."
+  },
+  {
+    "question": "What is unsupervised learning?",
+    "answer": "Unsupervised learning is where the model finds hidden patterns in data without labels."
+  },
+  {
+    "question": "What is overfitting in ML?",
+    "answer": "Overfitting occurs when a model learns both the data and the noise, performing well on training data but poorly on unseen data."
+  },
+  {
+    "question": "What is underfitting?",
+    "answer": "Underfitting happens when the model is too simple to capture the underlying patterns in the data."
+  },
+  {
+    "question": "What is bias-variance tradeoff?",
+    "answer": "It’s the balance between a model's complexity (variance) and its simplicity (bias). High bias leads to underfitting, high variance to overfitting."
+  },
+  {
+    "question": "What is the difference between classification and regression?",
+    "answer": "Classification predicts discrete labels; regression predicts continuous values."
+  },
+  {
+    "question": "What is a confusion matrix?",
+    "answer": "It is a matrix used to evaluate the performance of a classification model by comparing actual and predicted labels."
+  },
+  {
+    "question": "What are precision and recall?",
+    "answer": "Precision is TP / (TP + FP); recall is TP / (TP + FN). They measure classification performance."
+  },
+  {
+    "question": "What is F1 Score?",
+    "answer": "F1 Score is the harmonic mean of precision and recall, useful for imbalanced datasets."
+  },
+  {
+    "question": "What is cross-validation?",
+    "answer": "A technique to assess model performance by splitting the data into k subsets and training/testing k times."
+  },
+  {
+    "question": "What is k-fold cross-validation?",
+    "answer": "A form of cross-validation where the dataset is divided into k equal parts and the model is trained k times, each with a different test fold."
+  },
+  {
+    "question": "What is the curse of dimensionality?",
+    "answer": "It refers to problems that arise when data has too many features, leading to sparse data and poor performance."
+  },
+  {
+    "question": "What is feature selection?",
+    "answer": "Selecting the most important features to use in model building to reduce dimensionality and improve performance."
+  },
+  {
+    "question": "What is feature engineering?",
+    "answer": "Creating new features or transforming existing ones to improve model performance."
+  },
+  {
+    "question": "What is normalization?",
+    "answer": "Rescaling data to a standard range (e.g., 0 to 1) to treat all features equally."
+  },
+  {
+    "question": "What is standardization?",
+    "answer": "Transforming data to have zero mean and unit variance."
+  },
+  {
+    "question": "What are outliers?",
+    "answer": "Data points significantly different from others; they can distort model predictions."
+  },
+  {
+    "question": "What is regularization?",
+    "answer": "A technique to prevent overfitting by adding a penalty term to the loss function (e.g., L1, L2)."
+  },
+  {
+    "question": "What is L1 regularization?",
+    "answer": "Also called Lasso, it adds the absolute value of coefficients to the loss function and can shrink some weights to zero."
+  },
+  {
+    "question": "What is L2 regularization?",
+    "answer": "Also called Ridge, it adds the square of coefficients to the loss function and penalizes large weights."
+  },
+  {
+    "question": "What is Gradient Descent?",
+    "answer": "An optimization algorithm used to minimize loss by updating weights in the direction of the negative gradient."
+  },
+  {
+    "question": "What is stochastic gradient descent?",
+    "answer": "A variation of gradient descent that updates weights using one training sample at a time."
+  },
+  {
+    "question": "What is learning rate?",
+    "answer": "A hyperparameter that controls how much the model weights are updated during training."
+  },
+  {
+    "question": "What is a hyperparameter?",
+    "answer": "A parameter set before training (e.g., learning rate, tree depth) that controls the model's behavior."
+  },
+  {
+    "question": "What is the difference between parametric and non-parametric models?",
+    "answer": "Parametric models have a fixed number of parameters (e.g., linear regression); non-parametric models do not (e.g., KNN)."
+  },
+  {
+    "question": "What is K-Nearest Neighbors (KNN)?",
+    "answer": "An algorithm that classifies data based on the majority class among its K nearest neighbors."
+  },
+  {
+    "question": "What is a decision tree?",
+    "answer": "A model that splits data into branches based on feature values, forming a tree-like structure."
+  },
+  {
+    "question": "What is entropy in decision trees?",
+    "answer": "A measure of impurity used to determine how to split data at each node."
+  },
+  {
+    "question": "What is information gain?",
+    "answer": "The reduction in entropy after splitting a dataset based on a feature."
+  },
+  {
+    "question": "What is a random forest?",
+    "answer": "An ensemble of decision trees where each tree is trained on a random subset of data and features."
+  },
+  {
+    "question": "What is bagging?",
+    "answer": "Short for Bootstrap Aggregating, it trains multiple models on different subsets of data and averages their predictions."
+  },
+  {
+    "question": "What is boosting?",
+    "answer": "An ensemble technique that trains models sequentially, with each new model focusing on correcting errors made by previous ones."
+  },
+  {
+    "question": "What is XGBoost?",
+    "answer": "A high-performance implementation of gradient boosting that is efficient and widely used in competitions."
+  },
+  {
+    "question": "What is SVM (Support Vector Machine)?",
+    "answer": "A model that finds the optimal hyperplane to separate classes with the largest margin."
+  },
+  {
+    "question": "What is a kernel in SVM?",
+    "answer": "A function that transforms input data into higher dimensions to make it linearly separable."
+  },
+  {
+    "question": "What is logistic regression?",
+    "answer": "A classification algorithm that estimates probabilities using the logistic (sigmoid) function."
+  },
+  {
+    "question": "What is linear regression?",
+    "answer": "A regression algorithm that models the relationship between input variables and a continuous output using a straight line."
+  },
+  {
+    "question": "What is PCA (Principal Component Analysis)?",
+    "answer": "A technique used for dimensionality reduction by projecting data into lower dimensions while preserving variance."
+  },
+  {
+    "question": "What is clustering?",
+    "answer": "An unsupervised learning method to group data points based on similarity."
+  },
+  {
+    "question": "What is K-Means?",
+    "answer": "A clustering algorithm that partitions data into K clusters by minimizing within-cluster variance."
+  },
+  {
+    "question": "What is silhouette score?",
+    "answer": "A measure of how similar a data point is to its own cluster compared to other clusters."
+  },
+  {
+    "question": "What is an ROC curve?",
+    "answer": "Receiver Operating Characteristic curve shows the trade-off between true positive rate and false positive rate."
+  },
+  {
+    "question": "What is AUC score?",
+    "answer": "Area Under the ROC Curve; higher AUC indicates better classification performance."
+  },
+  {
+    "question": "What is early stopping?",
+    "answer": "A technique to stop training when validation performance stops improving to avoid overfitting."
+  },
+  {
+    "question": "What is model deployment?",
+    "answer": "The process of integrating a trained ML model into a production system for real-time predictions."
+  },
+  {
+    "question": "What is the difference between online and batch learning?",
+    "answer": "Online learning updates the model continuously as data arrives, while batch learning trains on the entire dataset at once."
+  },
+  {
+    "question": "What is transfer learning?",
+    "answer": "Using a pre-trained model on one task and adapting it to a different but related task."
+  },
+  {
+    "question": "What is reinforcement learning?",
+    "answer": "A learning approach where agents learn by interacting with an environment and receiving rewards or penalties."
+  },
+  {
+    "question": "What is the role of validation data?",
+    "answer": "Validation data is used during training to tune hyperparameters and evaluate model performance without touching test data."
+  }
+]

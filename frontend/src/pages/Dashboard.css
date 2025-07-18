@@ -1,0 +1,29 @@
+.dashboard-container {
+  text-align: center;
+  padding: 2rem;
+  background: #f8f9fa;
+  min-height: 100vh;
+}
+
+.topic-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.topic-card {
+  background: linear-gradient(to bottom right, #007bff, #00bfff);
+  color: white;
+  padding: 2rem 3rem;
+  font-size: 1.2rem;
+  border-radius: 1rem;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.topic-card:hover {
+  transform: scale(1.05);
+}

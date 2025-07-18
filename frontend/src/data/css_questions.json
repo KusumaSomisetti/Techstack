@@ -1,0 +1,198 @@
+[
+  {
+    "question": "What is CSS?",
+    "answer": "CSS stands for Cascading Style Sheets. It is used to style and layout web pages."
+  },
+  {
+    "question": "What are the types of CSS?",
+    "answer": "Inline CSS, Internal CSS, and External CSS."
+  },
+  {
+    "question": "What is the difference between classes and IDs in CSS?",
+    "answer": "Classes can be reused across multiple elements, while IDs are unique and used for a single element."
+  },
+  {
+    "question": "What is the 'box model' in CSS?",
+    "answer": "It describes the rectangular boxes generated for elements, including margins, borders, padding, and content."
+  },
+  {
+    "question": "What is specificity in CSS?",
+    "answer": "It is the method browsers use to determine which rule applies if multiple rules match the same element."
+  },
+  {
+    "question": "What is the difference between 'relative', 'absolute', and 'fixed' positioning?",
+    "answer": "'Relative' is based on its normal position, 'absolute' is relative to its nearest positioned ancestor, and 'fixed' is relative to the viewport."
+  },
+  {
+    "question": "How do you apply styles to multiple elements?",
+    "answer": "By separating selectors with commas, like: `h1, p, div { color: red; }`"
+  },
+  {
+    "question": "What are pseudo-classes in CSS?",
+    "answer": "Pseudo-classes define the special state of an element, like `:hover`, `:focus`, `:first-child`."
+  },
+  {
+    "question": "What is a pseudo-element in CSS?",
+    "answer": "It allows styling specific parts of an element, e.g., `::before`, `::after`."
+  },
+  {
+    "question": "How can you make a website responsive?",
+    "answer": "Using media queries, flexible layouts, and percentage-based widths."
+  },
+  {
+    "question": "What is a media query?",
+    "answer": "A CSS technique to apply styles based on device characteristics like screen width."
+  },
+  {
+    "question": "What is the difference between 'em', 'rem', and 'px'?",
+    "answer": "'px' is fixed, 'em' is relative to the parent, 'rem' is relative to the root."
+  },
+  {
+    "question": "What is the difference between visibility: hidden and display: none?",
+    "answer": "'visibility: hidden' hides the element but takes up space; 'display: none' removes it from layout."
+  },
+  {
+    "question": "How do you center a div horizontally?",
+    "answer": "Using `margin: 0 auto` or Flexbox."
+  },
+  {
+    "question": "What is Flexbox?",
+    "answer": "A CSS layout model that allows responsive alignment and distribution of elements in a container."
+  },
+  {
+    "question": "What is the difference between justify-content and align-items in Flexbox?",
+    "answer": "`justify-content` aligns items horizontally, `align-items` aligns items vertically."
+  },
+  {
+    "question": "What is the z-index in CSS?",
+    "answer": "It controls the vertical stacking order of elements."
+  },
+  {
+    "question": "How do you make an element fullscreen?",
+    "answer": "Set `width: 100vw; height: 100vh;`."
+  },
+  {
+    "question": "What is the use of calc() in CSS?",
+    "answer": "It allows dynamic calculations for CSS values, like `width: calc(100% - 50px);`"
+  },
+  {
+    "question": "How do you create a grid layout in CSS?",
+    "answer": "Using `display: grid` and defining `grid-template-rows` and `grid-template-columns`."
+  },
+  {
+    "question": "What is the difference between inline and block elements?",
+    "answer": "Inline does not start on a new line and takes only necessary space; block takes full width and starts on a new line."
+  },
+  {
+    "question": "What is the default position of an HTML element?",
+    "answer": "The default is `static`."
+  },
+  {
+    "question": "How do you apply styles conditionally in CSS?",
+    "answer": "Using pseudo-classes like `:hover`, `:checked`, `:nth-child()`."
+  },
+  {
+    "question": "How do transitions work in CSS?",
+    "answer": "They allow smooth animation between two states using `transition` property."
+  },
+  {
+    "question": "What is the difference between transition and animation in CSS?",
+    "answer": "`transition` is used between two states; `animation` can be more complex with multiple keyframes."
+  },
+  {
+    "question": "What are keyframes in CSS?",
+    "answer": "They define the intermediate steps in an animation sequence."
+  },
+  {
+    "question": "How do you hide an element but make it accessible to screen readers?",
+    "answer": "Use `position: absolute; left: -9999px;`."
+  },
+  {
+    "question": "What is the difference between nth-child and nth-of-type?",
+    "answer": "`nth-child` selects based on position, `nth-of-type` selects based on element type."
+  },
+  {
+    "question": "What are combinators in CSS?",
+    "answer": "They define relationships between selectors, like descendant (` `), child (`>`), adjacent sibling (`+`), and general sibling (`~`)."
+  },
+  {
+    "question": "What is important in CSS?",
+    "answer": "`!important` overrides any other rule, even inline styles."
+  },
+  {
+    "question": "Can a single element have multiple background images?",
+    "answer": "Yes, by separating them with commas in `background-image`."
+  },
+  {
+    "question": "What is a CSS preprocessor?",
+    "answer": "A tool like Sass or LESS that extends CSS with variables, functions, etc."
+  },
+  {
+    "question": "What is the difference between min-width and max-width?",
+    "answer": "`min-width` applies above the value, `max-width` applies below the value."
+  },
+  {
+    "question": "What is a viewport?",
+    "answer": "The visible area of a web page on a device."
+  },
+  {
+    "question": "How do you create a triangle in CSS?",
+    "answer": "Using `border` properties on a 0-sized element."
+  },
+  {
+    "question": "How do you prevent a flex item from growing?",
+    "answer": "Use `flex-grow: 0`."
+  },
+  {
+    "question": "What is object-fit in CSS?",
+    "answer": "It defines how content like images should resize to fit their container (`cover`, `contain`, etc.)."
+  },
+  {
+    "question": "How do you make a circular image using CSS?",
+    "answer": "Use `border-radius: 50%` on a square image."
+  },
+  {
+    "question": "What is the difference between inline-block and block?",
+    "answer": "`inline-block` respects inline flow but allows width/height. `block` takes full width."
+  },
+  {
+    "question": "What is opacity in CSS?",
+    "answer": "Controls transparency level from 0 (transparent) to 1 (opaque)."
+  },
+  {
+    "question": "How do you select the first letter of a paragraph?",
+    "answer": "Using the `::first-letter` pseudo-element."
+  },
+  {
+    "question": "What are media features in media queries?",
+    "answer": "Properties like `max-width`, `orientation`, `resolution`, etc."
+  },
+  {
+    "question": "How do you make text overflow with an ellipsis?",
+    "answer": "Use `overflow: hidden; white-space: nowrap; text-overflow: ellipsis;`"
+  },
+  {
+    "question": "What is inheritance in CSS?",
+    "answer": "Some properties like `color`, `font` are inherited from parent to child elements."
+  },
+  {
+    "question": "How can you disable a style temporarily?",
+    "answer": "Comment out the rule or use dev tools to uncheck it."
+  },
+  {
+    "question": "What is reflow and repaint?",
+    "answer": "Reflow is recalculating layout, repaint is redrawing pixels. Reflows are more performance-intensive."
+  },
+  {
+    "question": "What is the difference between static and relative positioning?",
+    "answer": "`static` is default; `relative` allows you to shift the element while preserving layout."
+  },
+  {
+    "question": "What is a CSS reset?",
+    "answer": "A way to remove default browser styles to maintain consistency."
+  },
+  {
+    "question": "Can CSS be used to detect device types?",
+    "answer": "Not directly, but you can target screen sizes using media queries."
+  }
+]

@@ -1,0 +1,202 @@
+[
+  {
+    "question": "What is Node.js?",
+    "answer": "Node.js is a runtime environment that allows executing JavaScript on the server-side. It is built on Chrome's V8 JavaScript engine."
+  },
+  {
+    "question": "What is the use of the 'require' function in Node.js?",
+    "answer": "'require' is used to import modules, JSON, and local files in Node.js."
+  },
+  {
+    "question": "What is npm?",
+    "answer": "npm (Node Package Manager) is the default package manager for Node.js. It helps to install, update, and manage project dependencies."
+  },
+  {
+    "question": "What is the difference between 'require' and 'import'?",
+    "answer": "'require' is used in CommonJS modules, while 'import' is used in ES6 modules."
+  },
+  {
+    "question": "What is an event loop in Node.js?",
+    "answer": "The event loop handles asynchronous callbacks and allows Node.js to perform non-blocking I/O operations."
+  },
+  {
+    "question": "What is a callback function?",
+    "answer": "A callback function is passed as an argument to another function and is executed after the parent function completes."
+  },
+  {
+    "question": "What is the difference between synchronous and asynchronous functions?",
+    "answer": "Synchronous functions block the execution, while asynchronous functions allow the program to continue execution."
+  },
+  {
+    "question": "How does Node.js handle concurrency?",
+    "answer": "Node.js uses a single-threaded event loop and non-blocking I/O to handle concurrency."
+  },
+  {
+    "question": "What is middleware in Node.js?",
+    "answer": "Middleware are functions that have access to the request, response, and the next middleware function in the application\u2019s request-response cycle."
+  },
+  {
+    "question": "What is Express.js?",
+    "answer": "Express.js is a minimal and flexible Node.js web application framework for building web applications and APIs."
+  },
+  {
+    "question": "How do you handle exceptions in Node.js?",
+    "answer": "By using try-catch blocks and error-handling middleware."
+  },
+  {
+    "question": "What is the purpose of 'module.exports'?",
+    "answer": "'module.exports' is used to export functions or objects to be used in other files."
+  },
+  {
+    "question": "What are streams in Node.js?",
+    "answer": "Streams are objects that allow reading or writing data continuously. Types include Readable, Writable, Duplex, and Transform."
+  },
+  {
+    "question": "What are buffers in Node.js?",
+    "answer": "Buffers are used to store binary data directly in memory."
+  },
+  {
+    "question": "What is the use of the 'fs' module?",
+    "answer": "'fs' module is used to handle file system operations such as reading and writing files."
+  },
+  {
+    "question": "What is clustering in Node.js?",
+    "answer": "Clustering is a way of creating child processes to take advantage of multi-core systems."
+  },
+  {
+    "question": "How do you create a server in Node.js?",
+    "answer": "Using the 'http' module and calling http.createServer()."
+  },
+  {
+    "question": "What is the difference between process.nextTick() and setImmediate()?",
+    "answer": "process.nextTick() executes before any I/O events, whereas setImmediate() executes after I/O events."
+  },
+  {
+    "question": "What is the use of the 'path' module?",
+    "answer": "'path' module provides utilities for working with file and directory paths."
+  },
+  {
+    "question": "What is a package.json file?",
+    "answer": "It holds metadata relevant to the project and handles the project's dependencies."
+  },
+  {
+    "question": "What is the use of the `cluster` module in Node.js?",
+    "answer": "The `cluster` module allows you to create child processes (workers) that share the same server port to take advantage of multi-core systems."
+  },
+  {
+    "question": "How does Node.js handle child processes?",
+    "answer": "Node.js can create child processes using the `child_process` module with methods like `spawn`, `exec`, and `fork`."
+  },
+  {
+    "question": "What is the difference between `spawn()` and `exec()` in child_process?",
+    "answer": "`spawn()` is used for long-running processes and streams output, while `exec()` buffers the output and is better for short commands."
+  },
+  {
+    "question": "What is middleware in Node.js?",
+    "answer": "Middleware is a function that has access to the request, response, and next middleware in the request-response cycle, typically used in Express."
+  },
+  {
+    "question": "How can you improve the performance of a Node.js application?",
+    "answer": "Performance can be improved by using clustering, asynchronous programming, proper caching, avoiding memory leaks, and using efficient algorithms."
+  },
+  {
+    "question": "What are environment variables in Node.js?",
+    "answer": "Environment variables are used to store configuration details, typically set via `process.env` in Node.js."
+  },
+  {
+    "question": "How do you handle uncaught exceptions in Node.js?",
+    "answer": "Use `process.on('uncaughtException', callback)` to catch uncaught exceptions, but it’s recommended to shut down the app gracefully after."
+  },
+  {
+    "question": "What is REPL in Node.js?",
+    "answer": "REPL stands for Read Eval Print Loop and is an interactive shell to execute Node.js commands line-by-line."
+  },
+  {
+    "question": "What are buffers in Node.js?",
+    "answer": "Buffers are used to handle binary data streams, especially when dealing with file systems or network protocols."
+  },
+  {
+    "question": "How do streams work in Node.js?",
+    "answer": "Streams are objects that let you read data from a source or write data to a destination in a continuous manner."
+  },
+  {
+    "question": "What are the different types of streams in Node.js?",
+    "answer": "Readable, Writable, Duplex (read/write), and Transform (modify data during read/write)."
+  },
+  {
+    "question": "What is the role of package-lock.json?",
+    "answer": "`package-lock.json` locks the versions of dependencies to ensure consistent installs across environments."
+  },
+  {
+    "question": "What is the difference between `dependencies` and `devDependencies`?",
+    "answer": "`dependencies` are required at runtime; `devDependencies` are only needed during development and testing."
+  },
+  {
+    "question": "How do you handle file uploads in Node.js?",
+    "answer": "Using middleware like `multer` with Express allows handling multipart/form-data file uploads."
+  },
+  {
+    "question": "What is CORS and how do you handle it in Node.js?",
+    "answer": "CORS (Cross-Origin Resource Sharing) is handled using the `cors` middleware in Express to allow or block requests from different origins."
+  },
+  {
+    "question": "How do you secure a Node.js app?",
+    "answer": "Use HTTPS, validate inputs, manage sessions securely, avoid eval(), and use packages like `helmet` to secure headers."
+  },
+  {
+    "question": "What is the use of the `util` module in Node.js?",
+    "answer": "The `util` module provides utility functions like `util.promisify`, `util.format`, and `util.inherits`."
+  },
+  {
+    "question": "How do you use events in Node.js?",
+    "answer": "Use the `events` module to create an `EventEmitter` instance and bind/listen to events using `on`, `emit` methods."
+  },
+  {
+    "question": "What is the difference between `process.nextTick()` and `setImmediate()`?",
+    "answer": "`process.nextTick()` runs callbacks before the next event loop tick; `setImmediate()` runs them in the next iteration."
+  },
+  {
+    "question": "What are common memory leaks in Node.js?",
+    "answer": "Leaks can occur via global variables, closures holding references, event listeners not removed, or poor cache management."
+  },
+  {
+    "question": "What are the different HTTP methods supported by Node.js?",
+    "answer": "Node.js supports GET, POST, PUT, DELETE, PATCH, OPTIONS, and HEAD."
+  },
+  {
+    "question": "What is throttling in Node.js?",
+    "answer": "Throttling controls the rate of requests a user can make to prevent abuse, typically using libraries like `express-rate-limit`."
+  },
+  {
+    "question": "What is a memory heap in Node.js?",
+    "answer": "The memory heap is the area where memory is allocated for variables and objects at runtime."
+  },
+  {
+    "question": "What is the `zlib` module used for?",
+    "answer": "The `zlib` module provides compression and decompression functionalities using Gzip and Deflate."
+  },
+  {
+    "question": "What is the purpose of `require.resolve()`?",
+    "answer": "It returns the resolved filename of a module as if it were loaded using `require()`."
+  },
+  {
+    "question": "What is a microservice and how is Node.js suitable for it?",
+    "answer": "A microservice is a small, independent service. Node.js is suitable due to its lightweight nature and asynchronous handling."
+  },
+  {
+    "question": "How do you validate inputs in a Node.js application?",
+    "answer": "Using libraries like `Joi`, `express-validator`, or custom validation logic."
+  },
+  {
+    "question": "What is the `domain` module used for?",
+    "answer": "`domain` was used to handle errors across async boundaries, but it's deprecated in favor of better practices like Promises and `async/await`."
+  },
+  {
+    "question": "How do you test a Node.js application?",
+    "answer": "Use frameworks like Mocha, Chai, Jest for writing and running unit/integration tests."
+  },
+  {
+    "question": "How do you connect Node.js with MongoDB?",
+    "answer": "Using the `mongoose` library or native MongoDB driver to connect and interact with MongoDB databases."
+  }
+]

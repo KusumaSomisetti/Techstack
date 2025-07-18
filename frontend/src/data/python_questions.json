@@ -1,0 +1,202 @@
+[
+  {
+    "question": "What is Python?",
+    "answer": "Python is a high-level, interpreted, general-purpose programming language known for its simplicity and readability."
+  },
+  {
+    "question": "What are Python's key features?",
+    "answer": "Easy syntax, interpreted, dynamically typed, object-oriented, large standard library, portable, and open-source."
+  },
+  {
+    "question": "What is PEP 8?",
+    "answer": "PEP 8 is a style guide for Python code that suggests best practices for writing readable and consistent Python code."
+  },
+  {
+    "question": "What is the difference between a list and a tuple?",
+    "answer": "Lists are mutable, whereas tuples are immutable."
+  },
+  {
+    "question": "What is a Python dictionary?",
+    "answer": "A dictionary is an unordered collection of key-value pairs. Keys must be unique and immutable."
+  },
+  {
+    "question": "What is the difference between 'is' and '==' in Python?",
+    "answer": "'is' checks for object identity, whereas '==' checks for value equality."
+  },
+  {
+    "question": "What are Python’s data types?",
+    "answer": "int, float, str, bool, list, tuple, set, dict, NoneType, etc."
+  },
+  {
+    "question": "What is a lambda function?",
+    "answer": "A lambda function is an anonymous function defined using the `lambda` keyword."
+  },
+  {
+    "question": "What is a list comprehension?",
+    "answer": "List comprehension is a concise way to create lists using a single line of code."
+  },
+  {
+    "question": "How is memory managed in Python?",
+    "answer": "Python uses reference counting and garbage collection for memory management."
+  },
+  {
+    "question": "What is a Python module?",
+    "answer": "A module is a file containing Python code that can be imported and reused in other files."
+  },
+  {
+    "question": "What are Python packages?",
+    "answer": "Packages are directories containing `__init__.py` files and multiple modules to organize code."
+  },
+  {
+    "question": "What is the use of `self` in Python classes?",
+    "answer": "`self` refers to the instance of the class and is used to access attributes and methods."
+  },
+  {
+    "question": "What are *args and **kwargs?",
+    "answer": "`*args` is used to pass a variable number of positional arguments, and `**kwargs` allows passing keyword arguments."
+  },
+  {
+    "question": "What is the difference between deep copy and shallow copy?",
+    "answer": "Shallow copy copies references, while deep copy creates independent objects recursively."
+  },
+  {
+    "question": "What is the purpose of `__init__.py`?",
+    "answer": "It marks a directory as a Python package."
+  },
+  {
+    "question": "What is the difference between `@staticmethod` and `@classmethod`?",
+    "answer": "`staticmethod` doesn't take `self` or `cls`; `classmethod` takes `cls` and can access class attributes."
+  },
+  {
+    "question": "What are Python decorators?",
+    "answer": "Decorators are functions that modify the behavior of other functions or methods."
+  },
+  {
+    "question": "What is a generator in Python?",
+    "answer": "A generator is a function that yields values one at a time using the `yield` keyword."
+  },
+  {
+    "question": "What is the Global Interpreter Lock (GIL)?",
+    "answer": "GIL is a mutex that allows only one thread to execute at a time in CPython."
+  },
+  {
+    "question": "What are Python exceptions?",
+    "answer": "Errors detected during execution that can be handled using try-except blocks."
+  },
+  {
+    "question": "What are the common built-in exceptions?",
+    "answer": "ValueError, TypeError, KeyError, IndexError, ZeroDivisionError, etc."
+  },
+  {
+    "question": "What is the difference between `pass`, `continue`, and `break`?",
+    "answer": "`pass` does nothing, `continue` skips to the next iteration, and `break` exits the loop."
+  },
+  {
+    "question": "How do you handle exceptions in Python?",
+    "answer": "Using try-except blocks. Optionally, use else and finally blocks for better control."
+  },
+  {
+    "question": "What is a Python virtual environment?",
+    "answer": "It’s an isolated environment for managing dependencies of different Python projects."
+  },
+  {
+    "question": "What is the difference between Python 2 and Python 3?",
+    "answer": "Python 3 has better Unicode support, print as a function, integer division changes, and more modern features. Python 2 is legacy."
+  },
+  {
+    "question": "How do you open and read a file in Python?",
+    "answer": "Use `open('filename', 'r')` to open and then use `.read()` or `.readlines()` to read contents."
+  },
+  {
+    "question": "How do you write to a file in Python?",
+    "answer": "Use `open('filename', 'w')` or `open('filename', 'a')`, then call `.write()`."
+  },
+  {
+    "question": "What is the difference between `range()` and `xrange()`?",
+    "answer": "`xrange()` exists only in Python 2 and returns a generator. `range()` returns a list in Python 2 and a generator in Python 3."
+  },
+  {
+    "question": "What is the difference between mutable and immutable types?",
+    "answer": "Mutable types like lists and dictionaries can be changed. Immutable types like strings and tuples cannot be modified."
+  },
+  {
+    "question": "What is monkey patching in Python?",
+    "answer": "Monkey patching refers to modifying or extending code at runtime, usually used for testing or mocking."
+  },
+  {
+    "question": "What is the `with` statement used for?",
+    "answer": "It simplifies exception handling and resource management (e.g., file closing) using context managers."
+  },
+  {
+    "question": "What is a context manager?",
+    "answer": "An object that defines `__enter__()` and `__exit__()` methods, used in `with` statements."
+  },
+  {
+    "question": "What is the use of `dir()` function?",
+    "answer": "`dir()` returns a list of attributes and methods of an object."
+  },
+  {
+    "question": "What is `__name__ == \"__main__\"` in Python?",
+    "answer": "It allows code to run only when the file is executed directly, not when imported as a module."
+  },
+  {
+    "question": "What is recursion?",
+    "answer": "A function calling itself to solve subproblems. Requires a base case to avoid infinite loops."
+  },
+  {
+    "question": "What are Python iterators?",
+    "answer": "Objects with `__iter__()` and `__next__()` methods, allowing iteration using `next()`."
+  },
+  {
+    "question": "What are Python generators?",
+    "answer": "Functions using `yield` to return an iterator one value at a time."
+  },
+  {
+    "question": "How do you install a package in Python?",
+    "answer": "Use `pip install package-name` from the command line."
+  },
+  {
+    "question": "What is the difference between `append()` and `extend()` in lists?",
+    "answer": "`append()` adds an element, `extend()` adds all elements from an iterable."
+  },
+  {
+    "question": "How do you sort a list in Python?",
+    "answer": "Use `.sort()` for in-place sorting or `sorted()` to return a new sorted list."
+  },
+  {
+    "question": "What is a lambda function used for?",
+    "answer": "Short, anonymous functions often used with functions like `map()`, `filter()`, and `reduce()`."
+  },
+  {
+    "question": "What is a Python set?",
+    "answer": "An unordered collection of unique items."
+  },
+  {
+    "question": "How do you remove duplicates from a list?",
+    "answer": "Convert the list to a set using `set(list)` and then back to a list."
+  },
+  {
+    "question": "What is list slicing?",
+    "answer": "A way to access parts of lists using `list[start:end:step]` syntax."
+  },
+  {
+    "question": "What are Python assertions?",
+    "answer": "`assert` is used for debugging, testing assumptions with an optional message."
+  },
+  {
+    "question": "How do you reverse a list?",
+    "answer": "Use `list[::-1]` or `list.reverse()`."
+  },
+  {
+    "question": "What is a docstring?",
+    "answer": "A string used to document a function or class, placed right after the definition line."
+  },
+  {
+    "question": "What are magic methods in Python?",
+    "answer": "Special methods like `__init__`, `__str__`, `__len__`, etc., that enable operator overloading and customization."
+  },
+  {
+    "question": "What is duck typing?",
+    "answer": "Python's approach where type is determined by behavior rather than inheritance. 'If it walks like a duck and quacks like a duck...'"
+  }
+]
