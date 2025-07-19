@@ -8,7 +8,7 @@ const flashcardRoutes = require('./routes/flashcardRoutes');
 
 const app = express();
 app.use(cors({
-  origin: "https://flashlearn-h1go1kadq-kusuma-somisettis-projects.vercel.app/",
+  origin: "https://flashlearn-h1go1kadq-kusuma-somisettis-projects.vercel.app",
   credentials: true
 }));
 app.use(express.json());

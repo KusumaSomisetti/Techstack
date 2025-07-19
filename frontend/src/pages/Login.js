@@ -14,7 +14,7 @@ const Login = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await api.post("/auth/login", formData);
+      const response = await api.post("/api/auth/login", formData);
       const { token } = response.data;
       localStorage.setItem("token", token); // optional, if using token later
       navigate("/topic-home"); // 🔁 go to your main project page
