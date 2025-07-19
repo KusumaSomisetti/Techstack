@@ -8,9 +8,16 @@ const flashcardRoutes = require('./routes/flashcardRoutes');
 
 const app = express();
 app.use(cors({
-  origin: "https://flashlearn-h1go1kadq-kusuma-somisettis-projects.vercel.app",
+  origin: function (origin, callback) {
+    if (!origin || origin.endsWith(".vercel.app")) {
+      callback(null, true);
+    } else {
+      callback(new Error("Not allowed by CORS"));
+    }
+  },
   credentials: true
 }));
+
 app.use(express.json());
 // Routes
 app.use('/api/auth', authRoutes);
